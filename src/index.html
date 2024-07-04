@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css" type="stylesheet/css">
+    <link rel="stylesheet" href="./output.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="./script.js" defer></script>
     <title>Document</title>
 </head>
-<body>
+<body class="bg-gray-200 overflow-hidden bg-no-repeat bg-contain ">
+    <main class="w-fit md:w-[1200px] h-[100vh] mx-auto border-2 border-gray-950">
+        
+            <div class="mode px-4 flex item-center justify-end gap-2 mt-12 md:mt-20 h-7 text-black w-full ">
+                <i class="fa-solid fa-sun text-4xl md:text-2xl self-center"></i>
+                <i id="modeToggle" class="fa-solid text-4xl md:text-3xl self-center fa-toggle-off cursor-pointer"></i>
+                <i class="fa-solid fa-moon self-center text-4xl md:text-2xl"></i>
+            </div>
+        
+            <div class="flex flex-col md:flex-row space-y-10 h-fit p-8 mt-3 mx-auto item-center justify-center md:gap-28">
+                <div id="welcome_note" class="flex items-center text-gray-800 flex-col justify-start md:justify-center">
+                    <span class="block text-5xl md:text-6xl justify-self-start ">Welcome to the</span>
+                    <span class="md:text-6xl text-5xl font-bold">Frontend Quiz!</span>
+                    <p class="mt-8  italic">Pick a subject to get started</p>
+                </div>
+                <div class="flex flex-col gap-5 w-full  md:w-[45%]">
     
+                    <div class="w-full rounded-xl bg-slate-500 flex justify-start items-center p-3 gap-5 cursor-pointer"><div class="w-fit h-fit p-1 bg-pink-200 rounded-lg "><img src="../icons-and-bg/icon-html.svg" alt=""></div><p class="text-3xl font-semibold text-gray-300">HTML</p></div>
+    
+                    <div class="w-full rounded-xl bg-slate-500 flex justify-start items-center p-3 gap-5 cursor-pointer"><div class="w-fit h-fit p-1 bg-pink-200 rounded-lg"><img src="../icons-and-bg/icon-css.svg" alt=""></div><p class="text-3xl font-semibold text-gray-300">CSS</p></div>
+    
+                    <div class="w-full rounded-xl bg-slate-500 flex justify-start items-center p-3 gap-5 cursor-pointer"><div class="w-fit h-fit p-1 bg-pink-200 rounded-lg"><img src="../icons-and-bg/icon-js.svg" alt=""></div><p class="text-3xl font-semibold text-gray-300">JavaScript</p></div>
+    
+                    <div class="w-full rounded-xl bg-slate-500 flex justify-start items-center p-3 gap-5 cursor-pointer"><div class="w-fit h-fit p-1 bg-pink-200 rounded-lg"><img src="../icons-and-bg/icon-accessibility.svg" alt=""></div><p class="text-3xl font-semibold text-gray-300">Accessibility</p></div>
+                    
+                </div>
+            </div>
+        
+        
+    </main>
 </body>
 </html>
+<!-- border-2 border-gray-950 -->
+ <!-- bg-[url('../icons-and-bg/pattern-background-mobile-light.svg')] bg -->
