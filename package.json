@@ -1,0 +1,28 @@
+{
+  "name": "quiz-app-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivWK/Quiz-App-javaScript.git"
+  },
+  "keywords": [
+    "Quiz",
+    "Quiz",
+    "app"
+  ],
+  "author": "Shivendra Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivWK/Quiz-App-javaScript/issues"
+  },
+  "homepage": "https://github.com/ShivWK/Quiz-App-javaScript#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
